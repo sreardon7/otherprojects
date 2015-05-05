@@ -1,0 +1,8 @@
+#!/bin/bash
+
+#resets testing folders for tiffSort script or TiffSort java application
+
+mv ../dataForSorting/TIFF/*/* ../dataForSorting/
+mv ../dataForSorting/WAVEFORM/* ../dataForSorting/
+rm -r ../dataForSorting/TIFF
+rm -r ../dataForSorting/WAVEFORM
